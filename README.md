@@ -2,7 +2,7 @@
 
 [Conan.io](https://conan.io) package for [Boost.Dll](https://github.com/Boostorg/Dll) project
 
-The packages generated with this **conanfile** can be found in [Bintray](https://bintray.com/bincrafters/conan-public/Boost.Dll%3Abincrafters).
+The packages generated with this **conanfile** can be found in [Bintray](https://bintray.com/bincrafters/public-conan/Boost.Dll%3Abincrafters).
 
 ## For Users: Use this package
 

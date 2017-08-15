@@ -8,14 +8,14 @@ The packages generated with this **conanfile** can be found in [Bintray](https:/
 
 ### Basic setup
 
-    $ conan install Boost.Dll/1.64.0@bincrafters/stable
+    $ conan install Boost.Dll/1.64.0@bincrafters/testing
 
 ### Project setup
 
 If you handle multiple dependencies in your project is better to add a *conanfile.txt*
 
     [requires]
-    Boost.Dll/1.64.0@bincrafters/stable
+    Boost.Dll/1.64.0@bincrafters/testing
 
     [generators]
     txt
@@ -38,14 +38,13 @@ This is a header only library, so nothing needs to be built.
 
     $ conan create bincrafters/testing
 	
-## Add Remote and Associate package with it
+## Add Remote
 
 	$ conan remote add bincrafters "https://api.bintray.com/conan/bincrafters/public-conan"
-	$ conan remote add_ref Boost.Dll/1.64.0@bincrafters/testing bincrafters
 
 ## Upload
 
-    $ conan upload Boost.Dll/1.64.0@bincrafters/testing --all
+    $ conan upload Boost.Dll/1.64.0@bincrafters/testing --all -r bincrafters
 
 ### License
 [Boost](LICENSE)

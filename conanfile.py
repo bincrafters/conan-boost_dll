@@ -2,27 +2,27 @@ from conans import ConanFile, tools, os
 
 class BoostDllConan(ConanFile):
     name = "Boost.Dll"
-    version = "1.64.0"
+    version = "1.65.1"
     short_paths = True
     url = "https://github.com/bincrafters/conan-boost-dll"
-    description = "Please visit http://www.boost.org/doc/libs/1_64_0/libs/libraries.htm"
+    description = "Please visit http://www.boost.org/doc/libs/1_65_1/libs/libraries.htm"
     license = "www.boost.org/users/license.html"
     lib_short_names = ["dll"]
-    requires =  "Boost.Config/1.64.0@bincrafters/testing", \
-                      "Boost.Core/1.64.0@bincrafters/testing", \
-                      "Boost.Filesystem/1.64.0@bincrafters/testing", \
-                      "Boost.Function/1.64.0@bincrafters/testing", \
-                      "Boost.Move/1.64.0@bincrafters/testing", \
-                      "Boost.Mpl/1.64.0@bincrafters/testing", \
-                      "Boost.Predef/1.64.0@bincrafters/testing", \
-                      "Boost.Smart_Ptr/1.64.0@bincrafters/testing", \
-                      "Boost.Spirit/1.64.0@bincrafters/testing", \
-                      "Boost.Static_Assert/1.64.0@bincrafters/testing", \
-                      "Boost.System/1.64.0@bincrafters/testing", \
-                      "Boost.Throw_Exception/1.64.0@bincrafters/testing", \
-                      "Boost.Type_Index/1.64.0@bincrafters/testing", \
-                      "Boost.Type_Traits/1.64.0@bincrafters/testing", \
-                      "Boost.Winapi/1.64.0@bincrafters/testing"
+    requires =  "Boost.Config/1.65.1@bincrafters/testing", \
+                      "Boost.Core/1.65.1@bincrafters/testing", \
+                      "Boost.Filesystem/1.65.1@bincrafters/testing", \
+                      "Boost.Function/1.65.1@bincrafters/testing", \
+                      "Boost.Move/1.65.1@bincrafters/testing", \
+                      "Boost.Mpl/1.65.1@bincrafters/testing", \
+                      "Boost.Predef/1.65.1@bincrafters/testing", \
+                      "Boost.Smart_Ptr/1.65.1@bincrafters/testing", \
+                      "Boost.Spirit/1.65.1@bincrafters/testing", \
+                      "Boost.Static_Assert/1.65.1@bincrafters/testing", \
+                      "Boost.System/1.65.1@bincrafters/testing", \
+                      "Boost.Throw_Exception/1.65.1@bincrafters/testing", \
+                      "Boost.Type_Index/1.65.1@bincrafters/testing", \
+                      "Boost.Type_Traits/1.65.1@bincrafters/testing", \
+                      "Boost.Winapi/1.65.1@bincrafters/testing"
 
                       #config0 core2 filesystem8 function5 move3 mpl5 predef0 smart_ptr4 spirit11 static_assert1 system3 throw_exception2 type_index5 type_traits3 winapi1
                       

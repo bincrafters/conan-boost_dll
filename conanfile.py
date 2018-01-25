@@ -8,7 +8,8 @@ class BoostDllConan(ConanFile):
     name = "boost_dll"
     version = "1.66.0"
     url = "https://github.com/bincrafters/conan-boost_dll"
-    
+    author = "Bincrafters <bincrafters@gmail.com>"
+    exports = ["LICENSE.md"]
     lib_short_names = ["dll"]
     is_header_only = True
 

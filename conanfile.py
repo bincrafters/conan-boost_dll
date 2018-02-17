@@ -17,22 +17,22 @@ class BoostDllConan(ConanFile):
         self.info.header_only()
 
     requires = (
-        "boost_package_tools/1.65.1@bincrafters/testing",
-        "boost_config/1.65.1@bincrafters/testing",
-        "boost_core/1.65.1@bincrafters/testing",
-        "boost_filesystem/1.65.1@bincrafters/testing",
-        "boost_function/1.65.1@bincrafters/testing",
-        "boost_move/1.65.1@bincrafters/testing",
-        "boost_mpl/1.65.1@bincrafters/testing",
-        "boost_predef/1.65.1@bincrafters/testing",
-        "boost_smart_ptr/1.65.1@bincrafters/testing",
-        "boost_spirit/1.65.1@bincrafters/testing",
-        "boost_static_assert/1.65.1@bincrafters/testing",
-        "boost_system/1.65.1@bincrafters/testing",
-        "boost_throw_exception/1.65.1@bincrafters/testing",
-        "boost_type_index/1.65.1@bincrafters/testing",
-        "boost_type_traits/1.65.1@bincrafters/testing",
-        "boost_winapi/1.65.1@bincrafters/testing"
+        "boost_package_tools/1.65.1@bincrafters/stable",
+        "boost_config/1.65.1@bincrafters/stable",
+        "boost_core/1.65.1@bincrafters/stable",
+        "boost_filesystem/1.65.1@bincrafters/stable",
+        "boost_function/1.65.1@bincrafters/stable",
+        "boost_move/1.65.1@bincrafters/stable",
+        "boost_mpl/1.65.1@bincrafters/stable",
+        "boost_predef/1.65.1@bincrafters/stable",
+        "boost_smart_ptr/1.65.1@bincrafters/stable",
+        "boost_spirit/1.65.1@bincrafters/stable",
+        "boost_static_assert/1.65.1@bincrafters/stable",
+        "boost_system/1.65.1@bincrafters/stable",
+        "boost_throw_exception/1.65.1@bincrafters/stable",
+        "boost_type_index/1.65.1@bincrafters/stable",
+        "boost_type_traits/1.65.1@bincrafters/stable",
+        "boost_winapi/1.65.1@bincrafters/stable"
     )
 
     # BEGIN
@@ -40,7 +40,7 @@ class BoostDllConan(ConanFile):
     description = "Please visit http://www.boost.org/doc/libs/1_65_1"
     license = "BSL-1.0"
     short_paths = True
-    build_requires = "boost_generator/1.65.1@bincrafters/testing"
+    build_requires = "boost_generator/1.65.1@bincrafters/stable"
 
     def package_id(self):
         getattr(self, "package_id_additional", lambda:None)()
